@@ -196,6 +196,27 @@ header {
 
 }
 
-body {
+.wrapper {
+  min-height: 100vh;
   background-color: #f0f2f5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-left {
+  min-height: 100vh;
+  border: 1px solid coral;
+  flex-basis: 360px;
+}
+
+.news-feed {
+  border: 1px solid crimson;
+  min-height: 100vh;
+  flex-basis: 680px;
+}
+
+.sidebar-right {
+  min-height: 100vh;
+  border: 1px solid purple;
+  flex-basis: 360px;
 }
